@@ -1,0 +1,68 @@
+.logo1{
+    height: 55px;
+    width: 55px;
+}
+.logo2{
+    color: black;
+    margin-top: 8px;
+    padding: 2px;
+}
+.logo-name{
+    font-size: 5px;
+}
+.bg-container{
+    background-image: url("https://wallpaperaccess.com/full/1318313.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.section-1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    padding-top: 240px;
+    text-decoration: solid;
+    color: rgba(0, 0, 0, 0.718);
+    text-align: center;
+    height: 100px;
+}
+.main-section{
+    background-color: lightblue;
+    background-size: cover;
+}
+.section-head{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    padding-top: 5px;
+}
+.about-section{
+    text-align:start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: larger;
+}
+.about-image{
+    height: 600px;
+    width: 690px;
+}
+.tour-logo{
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card{
+    background-color: blueviolet;
+}
+.tour-heading{
+    text-align: center;
+    padding: 2px;
+}
+.final-section{
+    text-align: center;
+}
+.fi-section{
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+}
