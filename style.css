@@ -38,28 +38,53 @@
 .about-section{
     text-align:start;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 5px;
+    padding: 10px;
     font-size: larger;
 }
-.about-image{
-    height: 600px;
-    width: 100%;
+.about-image,
+.fi-section{
+    width:100%;
+    height:auto;
 }
+
 .tour-logo{
-    height: 250px;
-    width: 250px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width:120px;
+    height:120px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+@media (min-width:768px){
+    .tour-logo{
+        width:250px;
+        height:250px;
+    }
+
+    .about-image,
+    .fi-section{
+        height:600px;
+    }
 }
 .card{
     background-color: blueviolet;
+}
+.card:hover{
+    transform:translateY(-5px);
 }
 .tour-heading{
     text-align: center;
     padding: 2px;
 }
-.fi-section{
-    height: 500px;
-    width: 500px;
-    padding: 30px;
+:root{
+    --main-bg: lightblue;
+    --card-bg: blueviolet;
+    --text-color:black;
+}
+
+.dark-mode{
+    --main-bg:#121212;
+    --card-bg:#333333;
+    --text-color:white;
+}
+body{
+    color:var(--text-color);
 }
